@@ -64,3 +64,172 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body{
+	margin: 0 10% 0 10%;
+  }
+  
+  nav{
+	top: 0px;
+	width: 100%;
+	position: fixed;
+	z-index: 3;
+  }
+  
+  .nav div a{
+	padding-top: 20px;
+	padding-left: 120px;
+	display: inline-block;
+	font-family: 'Titillium Web', sans-serif;
+	text-decoration: none;
+	color: white; 
+	font-size: 13px;
+	width: 7%;
+  }
+  
+  .nav div{
+	display: flex;
+	justify-content: space-between;
+	margin-left: -150px;
+	padding-right: 85%;
+	padding-left: 2%;
+	width: 150%;
+	top: 0;
+	height: 60px;
+	background-color: 	#0E8EF7;
+	
+  }
+  
+  .logo{
+	display: flex;;
+	position: absolute;
+	left: 67%;
+	top: 10px;
+  }
+  
+  .top{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 14%; 
+	padding-bottom: 6%; 
+  }
+  h1{
+	font-size: 70px;
+	text-align: center;
+	
+  }
+  
+  .header-img{
+	display: flex;
+	padding-top: 15%;
+  }
+  
+  button{
+	border: 1px solid black;
+	border-radius: 0;
+	width: 130px;
+	height: 25px;
+  }
+  
+  .tag-and-button{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+  
+  #features{
+	width: 49%;
+  }
+  
+  #about{
+	width: 49%;
+   
+  }
+  
+  .middle-img{
+	margin: 40px 20% 40px 0;
+  }
+  
+  #services{
+	width: 33%;
+	display: inline-block;
+	padding-right:5px;
+  }
+  
+  #product{
+	width: 33%;
+  
+  }
+  
+  #vision{
+	width: 33%;
+  }
+  
+  .address p{
+	padding: 7px 0;
+	width: 200px;
+  }
+  
+  .copyright{
+	display: flex;
+	justify-content: center;
+	padding: 100px 0 40px 0;
+  }
+
+  /* Services Page Styles */
+
+.services-header-img{
+	margin-top: 60px;
+	margin-bottom: 35px;
+	display: flex;
+}
+
+.main-content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-around;
+	height: 90%;
+	margin-top: 0px;
+}
+
+.main-content div{
+	width: 48%;
+	background-color: #F4F3F4;
+	border: 1px solid black;
+	padding: 17px;
+}
+
+button{
+	border-radius: 5px;
+}
+
+.bottom{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 47%;
+}
+.list{
+	display: list-item;
+	line-height: 1.5;
+}
+
+.image-flex img{
+	width: 48%;
+	
+}
+
+.image-flex{
+	display: flex;
+	justify-content: space-between;
+}
+
